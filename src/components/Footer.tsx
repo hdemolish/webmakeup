@@ -6,13 +6,8 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="container footer-container">
         
-        <div className="footer-brand reveal-up">
-          <div className="footer-script">Anh Thư Nguyễn</div>
-          <div className="footer-subtitle">MAKEUP ARTIST</div>
-        </div>
-        
-        <div className="footer-copyright reveal-up delay-1">
-          © 2024 Anh Thư Nguyễn. All rights reserved.
+        <div className="footer-copyright reveal-up">
+          © {new Date().getFullYear()} Anh Thư Nguyễn. All rights reserved.
         </div>
         
         <div className="footer-socials reveal-up delay-2">
