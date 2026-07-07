@@ -145,12 +145,20 @@
 }
 
 @media (max-width: 600px) {
+  .hero-container {
+    padding-top: 100px;
+  }
+
   .hero-image-wrapper {
-    height: 60vh;
+    height: 65vh;
+  }
+
+  .hero-image {
+    object-position: center top;
   }
 
   .hero-content {
-    margin: -15vh 5% 10%;
+    margin: -8vh 5% 10%;
     padding: 40px 20px;
   }
 
