@@ -27,10 +27,6 @@ const Hero: React.FC = () => {
         
         <div className="hero-image-wrapper">
           <img src={heroPortrait} alt="Anh Thu Nguyen Makeup Artist" className="hero-image reveal-up" />
-          <div className="hero-signature reveal-up delay-2">
-            <div className="script">Anh Thư Nguyễn</div>
-            <div className="subtitle">MAKEUP ARTIST</div>
-          </div>
         </div>
       </div>
     </section>
