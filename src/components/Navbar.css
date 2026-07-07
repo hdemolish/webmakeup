@@ -111,6 +111,13 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    background-color: rgba(250, 249, 246, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 0;
+  }
+  
   .nav-links {
     position: absolute;
     top: 100%;
@@ -134,7 +141,7 @@
   }
   
   .nav-actions .btn-primary {
-    display: none; /* Optional: Hide CTA on small mobile or move to menu */
+    display: none;
   }
 
   .mobile-menu-btn {
